@@ -1,0 +1,53 @@
+{% extends "base.html" %} 
+{% load static %} {% block body %}
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <img
+                src="{% static 'image/logo.jpg' %}"
+                class="img-fluid rounded"
+                alt="About QRestaurant"
+            />
+        </div>
+        <div class="col-md-6">
+            <h2 class="mb-4">About QRestaurant</h2>
+            <p>
+                Welcome to QRestaurant, where culinary excellence meets warm
+                hospitality. At QRestaurant, we are more than just a dining
+                establishment; we are a celebration of flavors, a haven for food
+                enthusiasts, and a place where every meal tells a story.
+            </p>
+            <p>
+                Our journey began with a passion for creating extraordinary
+                dining experiences. From the carefully selected ingredients to
+                the artful presentation of each dish, we take pride in crafting
+                a menu that reflects our commitment to quality and innovation.
+            </p>
+            <p>
+                QRestaurant is not just a place to eat; it's an invitation to
+                savor the extraordinary. Our chefs, inspired by global cuisines,
+                bring creativity to the kitchen, resulting in a diverse and
+                enticing menu that caters to every palate.
+            </p>
+            <p>
+                As much as we focus on the culinary journey, we also prioritize
+                the ambiance. Our inviting decor, coupled with attentive
+                service, ensures that your time at QRestaurant is a delightful
+                escape from the ordinary.
+            </p>
+            <p>
+                Whether you are here for a casual meal with friends, a romantic
+                dinner for two, or a special celebration, QRestaurant welcomes
+                you with open arms. Join us and indulge in a symphony of flavors
+                that will leave a lasting impression.
+            </p>
+            <p>
+                Thank you for choosing QRestaurant. We look forward to creating
+                memorable moments for you and your loved ones.
+            </p>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}

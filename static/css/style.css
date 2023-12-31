@@ -1,0 +1,14 @@
+.main-body{
+    background-image: url('../image/home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:  rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    padding: 150px;
+}
+.image{
+    height: 200;
+    width: 200;
+    border-radius: 50%;
+}
